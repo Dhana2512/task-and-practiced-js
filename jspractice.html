@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const a = 'dhana';
+        const b = 'lakshmi';
+        //    Length 
+        console.log(a.length);
+        //Indexof
+        console.log(a.indexOf('a'));
+        console.log(a.lastIndexOf('a'));
+        console.log(a.lastIndexOf('r'));
+        //search
+        console.log(a.search('a'));
+        //slice
+        const c = 'i like fruis and icecreams';
+        console.log(c.slice(4, -4), 'slice 2, 4');
+        console.log(c.slice(2));
+        // substring
+        console.log(c.substring(2, 4));
+        //substr
+        console.log(c.substr(2, 4));
+        //replace
+        console.log(c.replace('like', 'hate'));
+        const d = 'u should study fully and study well';
+        console.log(d.replace(/STudy/i, 'learn'));
+        console.log(d.replace(/STudy/g, 'learn'));
+        //uppercase & Lowercase
+        console.log(a.toUpperCase());
+        console.log(a.toLocaleLowerCase());
+        //concat
+        console.log(a.concat(' ', b));
+        console.log(`${a} ${b}`);
+        //trim
+        const e = '     dhana    '
+        console.log(e.trimStart());
+        //split
+        console.log('dhana'.split(''));
+        //endswith
+        console.log(c.endsWith('icecreams'));
+        //includes
+        console.log(c.includes('icecreams'));
+        //match
+        console.log(d.match(/study/gi));
+        //repeat
+        console.log(a.repeat(3));
+        //padend & padstart
+        console.log(a.padEnd(10,'*'));
+        console.log(a.padStart(10,'*'));
+    </script>
+
+</body>
+
+</html>

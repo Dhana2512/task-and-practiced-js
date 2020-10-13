@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>layout 1</title>
+    <style>
+        body {
+            background-image: url("bg.jpg");
+            color: white;
+        }
+
+        .pd 
+        {
+            padding-top: 100px;
+            padding-left: 20px;
+        }
+        .pd1
+        {
+            padding-top: 40px;
+            padding-left: 20px;
+        }
+
+        .fo {
+            line-height: 89px;
+            font-size: 63px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .bo {
+            border-radius: 30px;
+            border-style: none;
+            padding:10px;
+        }
+        .fp
+        {
+            padding-top: 100px;
+            padding-left: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container pt-3">
+        <div class="row pt-4 h-100">
+            <div class="col-12">
+                <img src="logo.png" height="62px" width="185px" />
+            </div>
+            <div class="col-8 w-100">
+
+                <div class="my-auto font-weight-bold pd">
+                    <div class="h3"> VERE360 </div>
+                </div>
+                <div>
+                    <p class="h1 fo"> Bringing you immersive education </p>
+                </div>
+            </div>
+            <div class="col-4 pd1">
+                <p>Access your account area by filling
+                    up the fields below: </p>
+                <div>
+                    <form>
+                        <div>
+                                <label>Email</label>
+                                <input type="text" class="btn-block bo" placeholder="terry.sammy@yahoo.com" name="Ename" required>
+        
+                        </div> 
+                        <div>
+                                <label>password</label>
+                                <input type="password" class="btn-block bo" placeholder="**********"  name="psw" required>
+        
+                        </div>
+                        <div class="pt-4">
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                                <a class="pl-4 ml-4"style="color:white" href="#">Forgot password ?</a>
+                        </div>
+                        <div class="pt-4">
+                        <button class="btn btn-block bg-white w-100 bo" type="submit">Login</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="fp">
+            © 2020 VERE360 Pte Ltd. All Rights Reserved. 
+    </footer>
+</body>
+
+</html>
